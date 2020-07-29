@@ -1,0 +1,510 @@
+{
+  "code": "200",
+  "message": "Success",
+  "key": "success",
+  "body": {
+    "property_id": "58193",
+    "realestate_id": "1",
+    "user_id": "1",
+    "operation_id": "rent",
+    "objective_id": "1",
+    "category_id": null,
+    "title": "Sobrado para alugar no Centro",
+    "reference": "REF-19",
+    "price": "300000",
+    "type": {
+      "id": "2",
+      "name": "Sobrado",
+      "category_id": "home"
+    },
+    "realestate": {
+      "id": "1",
+      "name": "Dev site 1"
+    },
+    "location": {
+      "position": {
+        "lat": "0",
+        "lon": "0"
+      },
+      "street": "270",
+      "number": "23",
+      "postalcode": "",
+      "complement": "",
+      "state": {
+        "id": "18",
+        "name": "Paraná",
+        "acronym": "PR"
+      },
+      "city": {
+        "id": "2",
+        "name": "Ponta Grossa"
+      },
+      "district": {
+        "id": "10",
+        "name": "Centro"
+      }
+    },
+    "attributes": [
+      {
+        "id": "139",
+        "name": "real-estate-incorpor",
+        "type": "date",
+        "label": "Incorporação Imobiliária",
+        "value": "",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "115",
+        "name": "release",
+        "type": "bool",
+        "label": "Lançamento",
+        "value": "1",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "108",
+        "name": "delivery-date",
+        "type": "date",
+        "label": "Data de entrega",
+        "value": "",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "101",
+        "name": "accepts-exchange",
+        "type": "bool",
+        "label": "Aceita permuta",
+        "value": "1",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "89",
+        "name": "",
+        "type": "bool",
+        "label": "Alugado",
+        "value": "1",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "88",
+        "name": "condominium-price",
+        "type": "number",
+        "label": "Valor condomínio",
+        "value": "221.34",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "60",
+        "name": "funded",
+        "type": "bool",
+        "label": "Financiamento",
+        "value": "1",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "57",
+        "name": "averbado",
+        "type": "bool",
+        "label": "Averbado",
+        "value": "1",
+        "value_string": null,
+        "group": "legal"
+      },
+      {
+        "id": "131",
+        "name": "util-area",
+        "type": "number",
+        "label": "Área útil - m²",
+        "value": "3.33",
+        "value_string": null,
+        "group": "feature"
+      },
+      {
+        "id": "130",
+        "name": "",
+        "type": "number",
+        "label": "Metragem",
+        "value": "3.23",
+        "value_string": null,
+        "group": "feature"
+      },
+      {
+        "id": "114",
+        "name": "geminate",
+        "type": "bool",
+        "label": "Geminado",
+        "value": "1",
+        "value_string": null,
+        "group": "feature"
+      },
+      {
+        "id": "81",
+        "name": "constructed-area",
+        "type": "number",
+        "label": "Área construída - m²",
+        "value": "3.33",
+        "value_string": null,
+        "group": "feature"
+      },
+      {
+        "id": "80",
+        "name": "total-area",
+        "type": "number",
+        "label": "Área total - m²",
+        "value": "2.33",
+        "value_string": null,
+        "group": "feature"
+      },
+      {
+        "id": "15",
+        "name": "floor",
+        "type": "select",
+        "label": "Piso",
+        "value": "6",
+        "value_string": "Misto",
+        "group": "feature"
+      },
+      {
+        "id": "14",
+        "name": "ceiling",
+        "type": "select",
+        "label": "Forro",
+        "value": "6",
+        "value_string": "Misto",
+        "group": "feature"
+      },
+      {
+        "id": "13",
+        "name": "material",
+        "type": "select",
+        "label": "Material",
+        "value": "6",
+        "value_string": "Pré-fab. madeira",
+        "group": "feature"
+      },
+      {
+        "id": "136",
+        "name": "cistern",
+        "type": "number",
+        "label": "Cisterna - litros",
+        "value": "3.33",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "12",
+        "name": "property-status",
+        "type": "select",
+        "label": "Estado do imóvel",
+        "value": "1",
+        "value_string": "Em construção",
+        "group": "feature"
+      },
+      {
+        "id": "87",
+        "name": "in-condominium",
+        "type": "bool",
+        "label": "Em condomínio",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "79",
+        "name": "",
+        "type": "bool",
+        "label": "Internet",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "77",
+        "name": "party-hall",
+        "type": "bool",
+        "label": "Salão de festas",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "73",
+        "name": "garden",
+        "type": "bool",
+        "label": "Jardim",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "39",
+        "name": "whirlpool",
+        "type": "bool",
+        "label": "Hidromassagem",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "36",
+        "name": "intercom",
+        "type": "bool",
+        "label": "Interfone",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "33",
+        "name": "fireplace",
+        "type": "bool",
+        "label": "Lareira",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "7",
+        "name": "air-conditioner",
+        "type": "bool",
+        "label": "Ar condicionado",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "5",
+        "name": "playground",
+        "type": "bool",
+        "label": "Parquinho",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "4",
+        "name": "stairs",
+        "type": "bool",
+        "label": "Escadaria",
+        "value": "1",
+        "value_string": null,
+        "group": "improvement"
+      },
+      {
+        "id": "147",
+        "name": "squash-room",
+        "type": "bool",
+        "label": "Quadra de squash",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "146",
+        "name": "green-area",
+        "type": "bool",
+        "label": "Área verde",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "144",
+        "name": "gourmet-space",
+        "type": "bool",
+        "label": "Espaço Gourmet",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "140",
+        "name": "infra-for-air-condit",
+        "type": "bool",
+        "label": "Infra para ar condicionado",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "117",
+        "name": "service-area",
+        "type": "bool",
+        "label": "Área de serviço",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "112",
+        "name": "demi-suite",
+        "type": "integer",
+        "label": "Demi suíte(s)",
+        "value": "3",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "93",
+        "name": "",
+        "type": "bool",
+        "label": "Ático",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "25",
+        "name": "living-room",
+        "type": "bool",
+        "label": "Sala de estar",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "24",
+        "name": "dining-room",
+        "type": "bool",
+        "label": "Sala de jantar",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "23",
+        "name": "kitchen",
+        "type": "bool",
+        "label": "Cozinha",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "21",
+        "name": "closet ",
+        "type": "bool",
+        "label": "Closet ",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "19",
+        "name": "balcony",
+        "type": "select",
+        "label": "Sacada",
+        "value": "1",
+        "value_string": "Sacada",
+        "group": "rooms"
+      },
+      {
+        "id": "9",
+        "name": "office",
+        "type": "bool",
+        "label": "Escritório",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "8",
+        "name": "laundry",
+        "type": "bool",
+        "label": "Lavanderia",
+        "value": "1",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "3",
+        "name": "garage",
+        "type": "integer",
+        "label": "Vagas na garagem",
+        "value": "3",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "2",
+        "name": "bath",
+        "type": "integer",
+        "label": "Banheiro(s)",
+        "value": "3",
+        "value_string": null,
+        "group": "rooms"
+      },
+      {
+        "id": "1",
+        "name": "bed",
+        "type": "integer",
+        "label": "Quarto(s)",
+        "value": "3",
+        "value_string": null,
+        "group": "rooms"
+      }
+    ],
+    "agent": {
+      "id": "45",
+      "name": "Meu corretor",
+      "email": "mail@mail.com",
+      "phone": "(86) 5865-8658"
+    },
+    "description": "lorem ipsum dolor",
+    "display_url": "",
+    "display_thumb": null,
+    "display_colors": null,
+    "tags": [
+      "home",
+      "house-two-ground",
+      "rent",
+      "residential",
+      "highlighted",
+      "published",
+      "stairs",
+      "bath",
+      "garage",
+      "garden",
+      "endorsed",
+      "funded",
+      "rented",
+      "accepts-exchange",
+      "release",
+      "geminate",
+      "in-condominium",
+      "under-construction",
+      "balcony"
+    ],
+    "date_created": "2020-07-18 00:22:29",
+    "date_featured": null,
+    "last_modified": "2020-07-23 02:25:48",
+    "__date_cached": "2020-07-25 02:25:13",
+    "youtube_link": "",
+    "keywords": "",
+    "picture_path": "p8EMQEJk/pVMn8JlB/1ac55c37-2ced-44d5-8118-17729cef6eff.jpg",
+    "friendly_url": "58193-casa-a-venda",
+    "integrations": ["vivareal"],
+    "pictures": [
+      {
+        "picture_id": "8ff42abe986078a1a91b34e443dcc2a8",
+        "display": "0",
+        "src": null,
+        "path": "p8EMQEJk/pVMn8JlB/1ac55c37-2ced-44d5-8118-17729cef6eff.jpg",
+        "fullpath": "https://pictureimobland.blob.core.windows.net/gallery/p8EMQEJk/pVMn8JlB/1ac55c37-2ced-44d5-8118-17729cef6eff.jpg"
+      }
+    ],
+    "pictures_ready": 1,
+    "location_embed": "",
+    "tour360_link": "",
+    "url": "http://ts3.imobland.com.br/devsite1/imovel?id=58193",
+    "highlighted": true,
+    "highlighted_date": "2020-07-18 03:22:27"
+  }
+}
