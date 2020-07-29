@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-import { Patterns, Utils, Exceptions } from "../../src/";
+import { Patterns, Utils, Exceptions } from "../../dist/";
 
 const { VivaReal } = Patterns;
 const { Context } = Utils;

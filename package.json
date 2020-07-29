@@ -10,7 +10,7 @@
     "build:start": "npm run build && node dist/server.js",
     "dev": "nodemon --exec babel-node src/server.js",
     "test": "nodemon --exec env NODE_ENV=test jest -i",
-    "test:build": "babel src -d dist && env TEST_BUILD=true jest -i"
+    "test:build": "babel src -d dist && env NODE_ENV=test jest -i"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
